@@ -1,0 +1,14 @@
+uvcdynctrl -s "Exposure, Auto Priority" 0           # 0/1
+uvcdynctrl -s "Exposure (Absolute)" 10000           # 1..10000
+uvcdynctrl -s "Exposure, Auto" 1                    # 0=auto, 1=manual, 2=shutter priority, 3=aperture priority
+uvcdynctrl -s "Backlight Compensation" 0            # 0..2
+uvcdynctrl -s "Sharpness" 224                       # 0..255
+uvcdynctrl -s "White Balance Temperature" 4000      # 0..10000
+uvcdynctrl -s "Power Line Frequency" 0              # 0=disabled, 1=50hz, 2=60hz
+uvcdynctrl -s "Gain" 255                            # 0..255
+uvcdynctrl -s "White Balance Temperature, Auto" 0   # 0/1
+uvcdynctrl -s "Saturation" 64                       # 0..255
+uvcdynctrl -s "Contrast" 32                         # 0..255
+uvcdynctrl -s "Brightness" 64                       # 0..255
+
+nice luvcview -s 640x480 -f yuv
