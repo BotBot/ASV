@@ -1,6 +1,2 @@
 *.o
-<<<<<<< HEAD:.gitignore
 *.pyc
-=======
-
->>>>>>> jleidgens/master:.gitignore
