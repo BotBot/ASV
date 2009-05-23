@@ -1,0 +1,23 @@
+class Motor
+  bearing             # -1..1
+  thrust              # -1..1
+
+# Singleton class representing camera.
+# Caches the last FRAME_BACKLOG frames and all associated VisionTasks
+class Camera
+  frame(n)               # n = -FRAME_BACKLOG..0
+  look(task,frame=0)     # task = VisionTask
+
+class VisionTask
+  new()
+    
+
+class Cannon
+  shoot    # boolean
+
+class Behavior
+
+class BehaviorList
+  Behavior[] queue
+  insert(Behavior)
+
