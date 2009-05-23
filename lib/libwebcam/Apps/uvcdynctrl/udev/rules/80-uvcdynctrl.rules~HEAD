@@ -1,4 +1,0 @@
-###############################################################################
-# Rules for adding dynamic UVC extension unit controls to UVC devices
-###############################################################################
-ACTION=="add", SUBSYSTEM=="video4linux", RUN+="/lib/udev/uvcdynctrl"
